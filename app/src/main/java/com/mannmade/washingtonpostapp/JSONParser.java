@@ -51,7 +51,7 @@ public class JSONParser {//Singleton Class to pass JSON String provided
                 jsonArrayList.add(post);
             }
         }catch(Exception e){
-            Log.e("GojimoApp", "JsonParsingError", e);
+            Log.e("WashingtonPostApp", "JsonParsingError", e);
         }
     }
 }
